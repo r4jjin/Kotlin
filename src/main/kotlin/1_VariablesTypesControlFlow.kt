@@ -11,6 +11,7 @@ val subject = "Kotlin"
 //control flow
 //if,else,when(switch in java)
 fun main() {
+
     println(hello)
     println(world)
 
@@ -18,4 +19,12 @@ fun main() {
         null -> print("null incoming")
         else -> print("welcome to $subject")
     }
+
+    //if,else,when used as expressions
+    var greetings = if (world != null) world else "Hello"
+    var msg = when (hello) {
+        null -> "Hello"
+        else -> hello
+    }
+
 }
