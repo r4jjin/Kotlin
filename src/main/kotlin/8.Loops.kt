@@ -1,6 +1,6 @@
 fun main() {
     /*while looping concept*/
-    var x = 5;
+    var x = 5
     while (x <= 10) {
         println("Index=$x")
         x++
@@ -11,4 +11,15 @@ fun main() {
         println("In range index = $i")
     }
 
+    /*for each loop -> lambda syntax in kotlin*/
+    var ar = arrayOf(1, 2, 3, 4)
+    ar.forEach {
+        println("Reference by default is it->$it")
+    }
+    ar.forEach { x ->
+        println("Reference updated to x->$x")
+    }
+    ar.forEachIndexed { index, item ->
+        println("index= $index , i= $item")
+    }
 }
