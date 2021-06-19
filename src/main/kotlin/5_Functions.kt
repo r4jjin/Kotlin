@@ -10,6 +10,6 @@ fun main() {
  return "Hello World"
  }
  */
-fun sayHello() = "Hello World"
+private fun sayHello() = "Hello World"
 fun sayHello(x: String = "default ") = "Hello $x"
 //fun sayHello(x:String) = println("Hello $x")

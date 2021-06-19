@@ -6,5 +6,5 @@ fun main() {
     var msg = ""
     if (age != null)
         msg = if (age.toInt() >= 18) "You are an adult" else "You are not a adult yet"
-    println(message = msg)
+    println(msg)
 }
