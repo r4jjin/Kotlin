@@ -7,7 +7,7 @@ fun main() {
 
 }
 
-/*adding a method to exsiting class, the value is referenced by this keyword*/
+/*adding a method to existing class, the value is referenced by this keyword*/
 fun Int.isPrime(): Boolean {
     var pr = true
     for (i in 2 until this) {
