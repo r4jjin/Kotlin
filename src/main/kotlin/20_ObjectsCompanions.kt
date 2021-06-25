@@ -1,17 +1,20 @@
-import Deto.pi
+import Detox.pi
 
 /*this is equivalent to singleton class in java
-* just like normarl class, this allows class and interface to be implemented
+* just like normal class, this allows class and interface to be implemented
 * if we need to have singleton behaviour for just few cases inside class- we define it in companion object block
 * */
 fun main() {
     println(pi)
-    println(Amd.Grx.meg)
+    println(Amd.meg)
     println(Amd.showUp())
- }
+    val x=Amd()
+    x.marlo()
+}
 
-object Deto : Amd(), Cer {
-    val pi = 22.0 / 7.0
+/*Object declarations are thread safe singletons*/
+object Detox : Amd(), Cer {
+    const val pi = 22.0 / 7.0
     override fun boss() {
         println("boss here")
     }
@@ -21,14 +24,15 @@ open class Amd {
     fun marlo() {
         println("this is method marlo")
     }
-    companion object Grx{
-        val meg="Meg reporting"
-        fun showUp(){
-            println("$meg")
+
+    companion object Grx {
+        const val meg = "Meg reporting"
+        fun showUp() {
+            println(meg)
         }
     }
 }
 
-open interface Cer {
+interface Cer {
     fun boss()
 }
