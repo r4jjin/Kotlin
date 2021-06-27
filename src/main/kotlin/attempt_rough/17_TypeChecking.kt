@@ -1,3 +1,5 @@
+package attempt_rough
+
 /* Type Checking and Smart Casting
 sort of similar to instanceof keyword in other programming languages
 In Kotlin, we can check the type of certain variable using the is operator at runtime.
@@ -40,7 +42,7 @@ if(ob instanceof String) {
 	System.out.println("length of String " + str.length());
 }
 * in below example kotlin confirms the same in is block and then takes care of it in inside modules
-fun main(args: Array<String>) {
+fun attempt_rough.main(args: Array<String>) {
 	val str1: String? = "Detoxic Copy"
 	var str2: String? = null // prints String is null
 	if(str1 is String) {
@@ -53,7 +55,7 @@ fun main(args: Array<String>) {
 	}
 }
 * usage of !is
-fun main(args: Array<String>) {
+fun attempt_rough.main(args: Array<String>) {
 	val str1: String? = "Detoxic Copy"
 	var str2: String? = null // prints String is null
 	if(str1 !is String) {

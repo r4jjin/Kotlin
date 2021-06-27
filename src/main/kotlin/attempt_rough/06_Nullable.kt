@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun main() {
     println("Hello, please enter your age")
     val age = readLine()

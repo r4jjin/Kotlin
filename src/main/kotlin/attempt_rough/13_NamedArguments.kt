@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun main() {
     /*named arguments*/
     printSomething(s1 = "Hello", s = "World")

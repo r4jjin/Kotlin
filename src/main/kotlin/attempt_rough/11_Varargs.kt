@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun main() {
     vararg1("d", "e", "t", "o", "x", "i", "c")
     vararg2("welcome", "pathu", "vaava")

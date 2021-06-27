@@ -1,4 +1,4 @@
-/*
+package attempt_rough/*
 * in explicit type casting we use 'as' operator.
 
 Explicit type casting can be done using :
@@ -8,12 +8,12 @@ Explicit type casting can be done using :
 * Unsafe cast operator : as
 * There might be possibility that we can not cast variable to target type
 * and it throws an exception at runtime, thats why it is called as unsafe casting.eg..
-* fun main(args: Array<String>){
+* fun attempt_rough.main(args: Array<String>){
 	val str1: Any = 11
 	val str2: String = str1 as String	 // throw exception
 	println(str1)
 }
-* fun main(args: Array<String>){
+* fun attempt_rough.main(args: Array<String>){
 	val str1: String? = null
 	val str2: String = str1 as String	 // throw exception
 	println(str1)
@@ -21,14 +21,14 @@ Explicit type casting can be done using :
 
 
 * Working example
-fun main(args: Array<String>){
+fun attempt_rough.main(args: Array<String>){
 	val str1: String = "It works fine"
 	val str2: String = str1 as String	 // Works
 	println(str1)
 }
 
 * Safe cast operator: as?
-* fun main(args: Array<String>){
+* fun attempt_rough.main(args: Array<String>){
 
 	var str1: Any = "Safe casting"
 	val str2: String? = str1 as? String	 // it works

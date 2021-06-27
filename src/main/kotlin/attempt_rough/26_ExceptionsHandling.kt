@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun main() {
     println("Enter a number ")
     val age = try {

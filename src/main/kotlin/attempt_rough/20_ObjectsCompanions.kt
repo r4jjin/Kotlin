@@ -1,4 +1,6 @@
-import Detox.pi
+package attempt_rough
+
+import attempt_rough.Detox.pi
 
 /*this is equivalent to singleton class in java
 * just like normal class, this allows class and interface to be implemented
@@ -8,7 +10,7 @@ fun main() {
     println(pi)
     println(Amd.meg)
     println(Amd.showUp())
-    val x=Amd()
+    val x = Amd()
     x.marlo()
 }
 

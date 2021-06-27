@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun main() {
     /*values of list are mutable and cannot be changed*/
     var ar = arrayOf(1, 2, 3, 4)

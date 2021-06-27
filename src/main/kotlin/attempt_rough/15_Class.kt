@@ -1,9 +1,11 @@
+package attempt_rough
+
 /*by default it has a constructor
 * we can define this class as following for no default constructor scenario
-* class `15_Class` constructor()
-* class `15_Class`()
-* class `15_Class`
-* class `15_Class`{}
+* class attempt_rough.`15_Class` constructor()
+* class attempt_rough.`15_Class`()
+* class attempt_rough.`15_Class`
+* class attempt_rough.`15_Class`{}
 * all of the above are same
 *
 * Constructor
@@ -66,8 +68,8 @@ class `15_Class`(val firstName: String = "Detoxic", val lastName: String = "Soul
 
 fun main() {
     /*this is how object is created, no need to use new keyword like other programming lang*/
-//    val x1 = `15_Class`()
-//    val x2 = `15_Class`("firtName", "lastName")
+//    val x1 = attempt_rough.`15_Class`()
+//    val x2 = attempt_rough.`15_Class`("firtName", "lastName")
     val x3 = `15_Class`()
     x3.name = "annakutty"
     println(x3.name)

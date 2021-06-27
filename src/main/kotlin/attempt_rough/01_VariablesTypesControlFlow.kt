@@ -1,3 +1,5 @@
+package attempt_rough
+
 //declaring variables and values
 val hello: String = "Hello"
 var world: String = "World"

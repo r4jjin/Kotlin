@@ -1,3 +1,5 @@
+package attempt_rough
+
 abstract class Shape(val shape: String, val dimensions: Double) {
     abstract fun details()
 }

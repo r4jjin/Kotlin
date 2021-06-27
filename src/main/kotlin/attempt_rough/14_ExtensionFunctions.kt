@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun main() {
     for (x in 2..9) {
         if (x.isPrime()) {

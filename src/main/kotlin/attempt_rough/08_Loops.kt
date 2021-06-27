@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun main() {
     /*while looping concept*/
     var x = 5
@@ -6,7 +8,7 @@ fun main() {
         x++
     }
     /*for loop*/
-    /*1..3 is in range operator to display 1 to 3*/
+    /*1..3 is in range operator to attempt_rough.display 1 to 3*/
     for (i in 1..8) {
         println("In range index = $i")
     }

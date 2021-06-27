@@ -1,0 +1,2 @@
+1. attempt_rough-> first attempt with basics and just concepts getting used to
+2. attempt_playground-> second attempt to get standard examples from kotlin website playgrounds

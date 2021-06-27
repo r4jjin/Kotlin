@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun printDetails(msg: String, vararg z: String) {
     println(msg)
     z.forEach { value ->

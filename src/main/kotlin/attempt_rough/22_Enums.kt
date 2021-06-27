@@ -1,6 +1,8 @@
+package attempt_rough
+
 fun main() {
     /*properties of enum
-    1.name - This property stores the name of the constant.
+    1.attempt_rough.getName - This property stores the attempt_rough.getName of the constant.
     2.ordinal-This property stores the ordinal value of the constant, which is usually a zero-based index.
     */
     println(Gender.Female.name)

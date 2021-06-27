@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun main() {
 
     println("basic integer operations")

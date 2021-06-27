@@ -1,3 +1,5 @@
+package attempt_rough
+
 fun main() {
     data class Rain(val type: String, val impact: String)
 
