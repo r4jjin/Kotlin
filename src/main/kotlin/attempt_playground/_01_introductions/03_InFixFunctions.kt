@@ -1,10 +1,11 @@
 package attempt_playground._01_introductions
-
+/*Member functions and extensions with a single parameter can be turned into infix functions.*/
 fun main() {
 
     infix fun Int.times(str: String) = str.repeat(this)
     println(2 times "Bye ")
 
+    /*Creates a Pair by calling the infix function to from the standard library.*/
     val pair = "Ferrari" to "Katrina"
     println(pair)
 
