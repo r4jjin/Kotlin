@@ -1,5 +1,5 @@
 package attempt_playground._01_introductions
-
+/*https://www.youtube.com/watch?v=vqY58JbLr-U*/
 fun main() {
     operator fun Int.times(str: String) = str.repeat(this)       // 1
     println(2 * "Bye ")                                          // 2
