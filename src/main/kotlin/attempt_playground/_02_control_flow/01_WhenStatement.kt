@@ -4,7 +4,7 @@ fun main() {
     cases("Hello")
     cases(1)
     cases(0L)
-    cases(MyClass())
+    cases(MyClasss())
     cases("hello")
 }
 
@@ -18,4 +18,4 @@ fun cases(obj: Any) {
     }
 }
 
-class MyClass
+class MyClasss
